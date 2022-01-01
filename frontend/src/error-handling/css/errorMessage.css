@@ -1,0 +1,19 @@
+.errorContainer {
+  margin-top: 10%;
+}
+
+.error {
+  font-size: 140%;
+  margin-left: 21%;
+  margin-top: -7.7%;
+}
+
+.errorImage {
+  width: 250px;
+  height: 150px;
+  background-image: url(error.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 13%;
+  margin-top: 15%;
+}

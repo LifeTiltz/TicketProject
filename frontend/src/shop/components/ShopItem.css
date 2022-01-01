@@ -1,0 +1,27 @@
+.itemTitle {
+  text-align: center;
+}
+
+.itemDesc {
+  display: flex;
+  justify-content: center;
+}
+
+.cart {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: -10%;
+  color: white;
+  background-color: teal;
+  border: 0px;
+  border-radius: 25px;
+}
+
+.cart:active {
+  background-color: gainsboro;
+}
+
+.cart:hover {
+  cursor: pointer;
+}

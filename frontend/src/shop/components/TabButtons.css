@@ -1,0 +1,17 @@
+.tabButton {
+  display: inline;
+  border-bottom: solid 4px teal;
+}
+
+.active {
+  border-bottom: solid 4px teal;
+}
+
+button {
+  background-color: white;
+  font-size: 100%;
+  width: 20%;
+  border: 0px;
+  border-bottom: solid 4px gainsboro;
+  padding-bottom: 1%;
+}
