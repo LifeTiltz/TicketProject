@@ -1,0 +1,21 @@
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 1.5rem;
+  border-radius: 35px;
+}
+
+button:hover button:active button:focus {
+  cursor: pointer;
+}
+
+.icon {
+  width: 2em;
+  margin-right: 1rem;
+}

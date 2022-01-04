@@ -47,7 +47,7 @@ export const Shop = () => {
   return (
     <div className="tabContainer">
       <h1 className='shopTitle'>Tickets & Passes</h1>
-      <div className="tabs">
+      <div>
         <TabButtons setCurrentTab={setCurrentTab} buttons={tabs} currentTab={currentTab} />
         <ShopContent shopItems={tabs.find(tab => tab.name === currentTab)?.content || []} />
       </div>

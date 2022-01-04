@@ -1,0 +1,3 @@
+ALTER TABLE users
+MODIFY is_admin TINYINT,
+MODIFY is_verified TINYINT;

@@ -1,0 +1,7 @@
+# Get all products
+GET {{host}}/api/products
+
+###
+
+# Get products of user
+GET {{host}}/api/products/1

@@ -1,17 +1,19 @@
-.tabButton {
+.tabs .active {
+  border-bottom: solid 4px teal;
+}
+
+.tabButton button {
   display: inline;
   border-bottom: solid 4px teal;
-}
-
-.active {
-  border-bottom: solid 4px teal;
-}
-
-button {
   background-color: white;
   font-size: 100%;
   width: 20%;
   border: 0px;
+  border-radius: 0;
   border-bottom: solid 4px gainsboro;
   padding-bottom: 1%;
+}
+
+.tabButton button:hover {
+  cursor: pointer;
 }

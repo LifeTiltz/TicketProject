@@ -1,0 +1,20 @@
+# Register
+POST {{host}}/api/register
+Content-Type: application/json
+
+{
+  "username": "hellooo",
+  "email": "hello@world.com",
+  "password": "password"
+}
+
+###
+
+# Modify profile
+PUT {{host}}/api/users/1
+Content-Type: application/json
+
+{
+  "name": "new name",
+  "email": "new@email.com"
+}

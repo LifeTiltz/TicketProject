@@ -8,10 +8,11 @@
 }
 
 .cart {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  width: 70%;
   padding-top: 5%;
   padding-bottom: 5%;
-  margin-left: -10%;
   color: white;
   background-color: teal;
   border: 0px;

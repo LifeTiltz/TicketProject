@@ -14,16 +14,18 @@ interface TabButtonsProps {
 
 export const TabButtons: React.FC<TabButtonsProps> = ({ buttons, setCurrentTab, currentTab }) => {
   return (
-    <div>
-      {buttons.map(tabButton => {
-        return (
-          <button
-            onClick={() => setCurrentTab(tabButton.name)}
-            className={(tabButton.name === currentTab) ? 'active' : ''}>
-            {tabButton.label}
-          </button>
-        )
-      })}
+    <div className="tabs">
+      <div className="tabButton">
+        {buttons.map(tabButton => {
+          return (
+            <button
+              onClick={() => setCurrentTab(tabButton.name)}
+              className={(tabButton.name === currentTab) ? 'active' : ''}>
+              {tabButton.label}
+            </button>
+          )
+        })}
+      </div>
     </div>
   );
 }

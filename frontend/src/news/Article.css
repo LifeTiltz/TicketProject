@@ -1,0 +1,24 @@
+.news-grid {
+  display: grid;
+  width: 25%;
+  border: solid 1px black;
+  margin: 10px;
+  background-color: teal;
+  color: white;
+  float: left;
+  border-radius: 15px;
+}
+
+.title {
+  background-color: black;
+  text-align: center;
+  padding: 5px;
+}
+h2.title {
+  margin: 0px;
+  border-radius: 0px 0px 10px 10px;
+}
+.content {
+  padding: 10px;
+  margin: 0px;
+}
